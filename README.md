@@ -13,8 +13,8 @@ Without using any other external information such as the brand or quality of a p
 In order to tackle the problem, we used features extracted by a BVLC CaffeNet with 5-layer CNN pre-trained on ImageNet [5]. On these features, we applied different regression methods (kNN, neural nets and decision trees) to estimate (first categories, and then) prices from images. We achieved ~47% accuracy whereas a naive guess returned ~2%, accuracy being within $10 bracket of the actual price.
 
 <p align="center">
-  <img src="/Figures/histpred.png" width="250" title="Histogram of real and predicted prices">
-  <img src="/Figures/histpred_100.png" width="250" title="Histogram of real and predicted prices">
+  <img src="/Figures/histpred.jpg" width="250" title="Histogram of real and predicted prices">
+  <img src="/Figures/histpred_100.jpg" width="250" title="Histogram of real and predicted prices">
 </p>
 
 There were several reasons leading to low accuracy:
